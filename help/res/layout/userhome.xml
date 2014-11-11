@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+
+    <Button
+        android:id="@+id/addevents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myevents"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:minHeight="80dp"
+        android:minWidth="80dp"
+        android:onClick="onClick"
+        android:text="@string/addeventd"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/findevents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addevents"
+        android:layout_alignLeft="@+id/addevents"
+        android:layout_marginBottom="42dp"
+        android:minHeight="80dip"
+        android:minWidth="80dip"
+        android:onClick="onClick"
+        android:text="@string/findevents"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/myevents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:minHeight="80dip"
+        android:minWidth="80dip"
+        android:onClick="onClick"
+        android:text="@string/myevents"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/handraised"
+        android:maxHeight="50dp"
+        android:src="@drawable/volunteerhands" />
+
+    <TextView
+        android:id="@+id/createacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/welcome"
+        android:textSize="55sp" />
+
+</RelativeLayout>
