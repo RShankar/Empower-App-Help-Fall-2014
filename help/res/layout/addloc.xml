@@ -27,11 +27,11 @@
         android:textSize="25sp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/FullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView2"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignLeft="@+id/SignUpPass"
         android:ems="10"
         android:inputType="textPostalAddress" />
 
@@ -45,7 +45,7 @@
      	android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/Phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView9"
@@ -55,7 +55,7 @@
         android:width="45dp" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/Zip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView10"
@@ -102,14 +102,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/signinpassword"
         android:layout_marginTop="49dp"
         android:text="@string/hrs"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="25sp" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/City"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView5"
@@ -172,21 +172,21 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/SignUpPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView4"
-        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignLeft="@+id/City"
         android:ems="10"
         android:inputType="date"
         android:width="100dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/signinpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView6"
-        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignLeft="@+id/Zip"
         android:ems="10"
         android:inputType="date"
         android:width="100dp" >
@@ -195,17 +195,17 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/OrgAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView3"
-        android:layout_alignRight="@+id/editText7"
+        android:layout_alignRight="@+id/City"
         android:ems="10"
         android:inputType="textPersonName"
         android:width="50dp" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/OrgName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView11"

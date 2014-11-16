@@ -11,10 +11,10 @@
     
 
     <Button
-        android:id="@+id/addevents"
+        android:id="@+id/LTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/myevents"
+        android:layout_above="@+id/LFV"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="51dp"
         android:minHeight="80dp"
@@ -27,8 +27,8 @@
         android:id="@+id/findevents"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/addevents"
-        android:layout_alignLeft="@+id/addevents"
+        android:layout_above="@+id/LTV"
+        android:layout_alignLeft="@+id/LTV"
         android:layout_marginBottom="42dp"
         android:minHeight="80dip"
         android:minWidth="80dip"
@@ -37,7 +37,7 @@
         android:textSize="50sp" />
 
     <Button
-        android:id="@+id/myevents"
+        android:id="@+id/LFV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

@@ -1081,8 +1081,25 @@ containing a value of this type.
         public static final int volunteerhands=0x7f020058;
     }
     public static final class id {
+        public static final int City=0x7f090051;
+        public static final int FullName=0x7f090044;
         public static final int Go=0x7f090056;
-        public static final int TextView01=0x7f090058;
+        public static final int Home=0x7f090062;
+        public static final int LFV=0x7f09003c;
+        public static final int LTV=0x7f09003d;
+        public static final int Map=0x7f09005f;
+        public static final int OrgAddress=0x7f090053;
+        public static final int OrgName=0x7f090054;
+        public static final int Phone=0x7f090049;
+        public static final int SignInPass=0x7f090059;
+        public static final int SignInUser=0x7f090058;
+        public static final int SignOut=0x7f090061;
+        public static final int SignUpPass=0x7f090046;
+        public static final int Signin=0x7f090060;
+        public static final int State=0x7f09005c;
+        public static final int TextView01=0x7f09005b;
+        public static final int Web=0x7f09005d;
+        public static final int Zip=0x7f09004b;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1094,9 +1111,8 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f09005c;
         public static final int activity_chooser_view_content=0x7f090025;
-        public static final int addevents=0x7f09003d;
+        public static final int addloc=0x7f090063;
         public static final int always=0x7f09000f;
         public static final int autoCompleteTextView1=0x7f09004f;
         public static final int autoCompleteTextView2=0x7f090047;
@@ -1108,21 +1124,12 @@ containing a value of this type.
         public static final int dialog=0x7f090014;
         public static final int disableHome=0x7f090009;
         public static final int dropdown=0x7f090015;
-        public static final int editText1=0x7f090046;
-        public static final int editText10=0x7f09005a;
-        public static final int editText2=0x7f090050;
-        public static final int editText3=0x7f090044;
-        public static final int editText4=0x7f090054;
-        public static final int editText5=0x7f090049;
-        public static final int editText6=0x7f090053;
-        public static final int editText7=0x7f090051;
-        public static final int editText8=0x7f09004b;
-        public static final int editText9=0x7f090059;
         public static final int edit_query=0x7f090030;
+        public static final int emailsignup=0x7f09005a;
         public static final int end=0x7f090017;
         public static final int expand_activities_button=0x7f090026;
         public static final int expanded_menu=0x7f09002c;
-        public static final int findevents=0x7f09005b;
+        public static final int findevents=0x7f09005e;
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09000a;
         public static final int icon=0x7f09002a;
@@ -1132,7 +1139,7 @@ containing a value of this type.
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;
         public static final int middle=0x7f090018;
-        public static final int myevents=0x7f09003c;
+        public static final int myevent=0x7f090064;
         public static final int never=0x7f090012;
         public static final int none=0x7f090019;
         public static final int normal=0x7f090007;
@@ -1154,6 +1161,7 @@ containing a value of this type.
         public static final int showHome=0x7f09000c;
         public static final int showTitle=0x7f09000d;
         public static final int signin=0x7f090057;
+        public static final int signinpassword=0x7f090050;
         public static final int split_action_bar=0x7f09001e;
         public static final int submit=0x7f090055;
         public static final int submit_area=0x7f090039;
@@ -1236,6 +1244,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
+        public static final int vcloggedin=0x7f0c0001;
     }
     public static final class string {
         public static final int Organizationaddress=0x7f0a0028;
@@ -1280,6 +1289,7 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
+        public static final int add=0x7f0a0039;
         public static final int addevent=0x7f0a0021;
         public static final int addeventd=0x7f0a0030;
         public static final int addloc=0x7f0a002e;
@@ -1298,9 +1308,12 @@ containing a value of this type.
         public static final int go=0x7f0a0036;
         public static final int handraised=0x7f0a0013;
         public static final int hello_world=0x7f0a000e;
+        public static final int home=0x7f0a0038;
         public static final int homeim=0x7f0a0010;
         public static final int hrs=0x7f0a001a;
         public static final int hrsworked=0x7f0a0025;
+        public static final int map=0x7f0a003b;
+        public static final int myevent=0x7f0a003a;
         public static final int myevents=0x7f0a0031;
         public static final int oragization=0x7f0a0027;
         public static final int password=0x7f0a002b;
@@ -1311,6 +1324,7 @@ containing a value of this type.
         public static final int signinpass=0x7f0a0035;
         public static final int signinsheet=0x7f0a0023;
         public static final int signinuser=0x7f0a0034;
+        public static final int signout=0x7f0a0037;
         public static final int signup=0x7f0a0022;
         public static final int startdate=0x7f0a0018;
         public static final int state=0x7f0a001e;

@@ -1,6 +1,10 @@
 package com.FAU.help;
 
 
+//import com.parse.Parse;
+import com.parse.Parse;
+import com.parse.ParseUser;
+
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +19,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       Parse.initialize(this, "cYmMMmAde85cb3vziaRxx09ZYrKYFERHSvk23YJg", "ywOTFtcqvMfSKzzbGioolJqXoGvT4v2kUUAkjWXW");
+       
         
     }
 
@@ -34,7 +40,10 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.SignOut) {
+        	ParseUser.logOut();
+        	Intent i = new Intent(this, MainActivity.class);
+	           startActivity(i);
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -43,13 +52,15 @@ public class MainActivity extends ActionBarActivity {
 
     public void onClick(View v) 
 	   {
+    	
 		 switch (v.getId())
 	    	{
-		 case R.id.addevents:
+		 case R.id.LTV:
 			 Intent i = new Intent(this, Signin.class);/*should go to map*/
 	           startActivity(i);
 			 break;
-		 case R.id.myevents:
+			 
+		 case R.id.LFV:	
 			Intent j = new Intent(this,Signin.class);
 	        startActivity(j);
 			 break;

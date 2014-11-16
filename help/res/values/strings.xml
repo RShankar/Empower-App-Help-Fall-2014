@@ -32,7 +32,7 @@
     <string name="phone">Organization Phone Number:</string>
     <string name="email">Email (will be your username):</string>
     <string name="password">Password:</string>
-    <string name="web">Organization Website:</string>
+    <string name="web">Organization Website(optional):</string>
     <string name="submit">Submit</string>
     <string name="addloc">Add Location</string>
     <string name="welcome">Welcome</string>
@@ -43,5 +43,10 @@
     <string name="signinuser">Username</string>
     <string name="signinpass">Password</string>
     <string name="go">Go</string>
+    <string name="signout">Sign Out</string>
+    <string name="home">Home</string>
+    <string name="add">Add Event</string>
+    <string name="myevent">My Events</string>
+    <string name="map">Map</string>
 
 </resources>

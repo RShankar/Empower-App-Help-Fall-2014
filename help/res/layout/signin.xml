@@ -42,33 +42,13 @@
         android:textSize="100sp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/SignInUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/signin"
-        android:layout_alignRight="@+id/textView3"
-        android:layout_marginBottom="64dp"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="66dp"
-        android:text="@string/signinuser"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="50sp" />
-
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
         android:ems="10"
         android:inputType="textEmailAddress" >
 
@@ -76,14 +56,35 @@
     </EditText>
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/SignInUser"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="66dp"
+        android:text="@string/signinuser"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="50sp" />
+
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
+        android:layout_below="@+id/SignInUser"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="65dp"
         android:text="@string/signinpass"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/SignInPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signin"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="textPassword" />
 
 </RelativeLayout>
