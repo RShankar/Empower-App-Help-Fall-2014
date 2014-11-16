@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.FAU.help.MainActivity" >
+    <item android:id="@+id/Map" android:title="@string/map" android:orderInCategory="2"></item>
+    <item android:id="@+id/Signin" android:title="@string/signin" android:orderInCategory="1"></item>
+
+</menu>

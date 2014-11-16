@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">help</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="homeim">I\'m</string>
+    <string name="tovolunteer">Looking to Volunteer</string>
+    <string name="forvolunteer">Looking for Volunteers</string>
+    <string name="handraised">Different colored hands raised</string>
+    <string name="sigininbutton">Sign In</string>
+    <string name="createacctext">Not a member? Sign up</string>
+    <string name="fillform">Fill the form below</string>
+    <string name="eventname">Event Name:</string>
+    <string name="startdate">Event Start date:</string>
+    <string name="enddate">Event end date:</string>
+    <string name="hrs">Hours of operation:</string>
+    <string name="category">Category:</string>
+    <string name="adress">Street address:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="zip">Zipcode:</string>
+    <string name="age">Age requirments:</string>
+    <string name="addevent">Add Event</string>
+    <string name="signup">Sign Up</string>
+    <string name="signinsheet">Sign In Sheet</string>
+    <string name="username">Username:</string>
+    <string name="hrsworked">Hours:</string>
+    <string name="personname">First &amp; Last Name:</string>
+    <string name="oragization">Organization Name:</string>
+    <string name="Organizationaddress">Organization Address:</string>
+    <string name="phone">Organization Phone Number:</string>
+    <string name="email">Email (will be your username):</string>
+    <string name="password">Password:</string>
+    <string name="web">Organization Website(optional):</string>
+    <string name="submit">Submit</string>
+    <string name="addloc">Add Location</string>
+    <string name="welcome">Welcome</string>
+    <string name="addeventd">Add Events</string>
+    <string name="myevents">My Events</string>
+    <string name="findevents">Find Events</string>
+    <string name="signin">Sign in</string>
+    <string name="signinuser">Username</string>
+    <string name="signinpass">Password</string>
+    <string name="go">Go</string>
+    <string name="signout">Sign Out</string>
+    <string name="home">Home</string>
+    <string name="add">Add Event</string>
+    <string name="myevent">My Events</string>
+    <string name="map">Map</string>
+
+</resources>
