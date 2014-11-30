@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="RadiusA">
+        <item>Radius</item>
+        <item>1 Mi</item>
+        <item>2 Mi</item>
+        <item>5 Mi</item>
+        <item>10 Mi</item>
+        <item>25 Mi</item>
+        <item>50 Mi</item>
+        <item>100 Mi</item>
+        
+    </string-array>
+</resources>
