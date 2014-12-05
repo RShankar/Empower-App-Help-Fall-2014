@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reaching"
+   
+    tools:context=".Signin" >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="@string/signin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="100sp" />
+
+    <EditText
+        android:id="@+id/SignInUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/SignInUser"
+        android:layout_below="@+id/score"
+        android:layout_marginTop="66dp"
+        android:text="@string/signinuser"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignInUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="@string/signinpass"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/passreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createacc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/passreset"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3300FF"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/SignInPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/createacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/SignInUser"
+        android:layout_below="@+id/sign"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/createacctext"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3300FF"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignRight="@+id/SignInPass"
+        android:layout_marginRight="120dp"
+        android:onClick="onClick"
+        android:src="@drawable/signin" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SignInUser"
+        android:layout_below="@+id/SignInPass"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="18dp"
+        android:onClick="onClick"
+        android:src="@drawable/guestbutton" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/caroline"
+     >
+
+    <TextView
+        android:id="@+id/createacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/white"
+        android:textSize="55sp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/findevents1"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:src="@drawable/leadersbutton" />
+
+    <ImageButton
+        android:id="@+id/LFV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/findevents1"
+        android:layout_marginTop="34dp"
+        android:onClick="onClick"
+        android:src="@drawable/myevents" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createacc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/s"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/findevents1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:onClick="onClick"
+        android:src="@drawable/findevent" />
+
+</RelativeLayout>

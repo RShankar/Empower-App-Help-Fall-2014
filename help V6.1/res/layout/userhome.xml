@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/caroline"
+     
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/createacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/white"
+        android:textSize="55sp" />
+
+    <ImageButton
+        android:id="@+id/LFV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/LTV4"
+        android:layout_marginBottom="98dp"
+        android:onClick="onClick"
+        android:src="@drawable/myevents" />
+
+    <ImageButton
+        android:id="@+id/LTV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LFV4"
+        android:layout_alignLeft="@+id/findevents2"
+        android:layout_marginBottom="35dp"
+        android:onClick="onClick"
+        android:src="@drawable/addevent" />
+
+    <ImageButton
+        android:id="@+id/findevents2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LTV4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:onClick="onClick"
+        android:src="@drawable/findevent" />
+
+</RelativeLayout>
