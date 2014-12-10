@@ -358,5 +358,29 @@ Date today = c.getTime();
 	    startActivity(i);
     }
 			
-	   }}
+	   }
+	@Override
+	public void onBackPressed() {
+		ParseUser current = ParseUser.getCurrentUser();
+		if(current!=null)
+		{
+		String t = current.getString("AccountType");
+		if (t.equals("VC")){
+		Intent k = new Intent(this, UserHome.class);
+	    startActivity(k);}
+		else if (t.equals("V"))
+		{
+			Intent k = new Intent(this, StudentHome.class);
+		    startActivity(k);
+		}
+		}
+		else
+		{
+			Intent k = new Intent(this, MainActivity.class);
+		    startActivity(k);
+		}
+	}    
+
+
+}
 
