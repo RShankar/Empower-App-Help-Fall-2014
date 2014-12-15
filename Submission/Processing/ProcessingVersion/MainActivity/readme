@@ -1,0 +1,52 @@
+1, Import google-play-services as a (dummy) project and select isLibrary (Project-->Props-->Android)
+2. For the other App where you will use: generate the API key and place at the top before the activity
+tags, not at the end.
+3. Buildpath --> Add libraries --> add Google play services. For the MainActivity App, you will have
+to add V4 dependency as well. 
+4. Rearrange the order for export so src and bin come first. Then select all the other 4/5 items (Google
+APIs, Andr Priv Libr, Andr Dep, goole play svcs, v4). 
+5. Also choose Google API (4.3) not Android 4.3
+6. For some reason, it still says that it cannot locate the google-play-svcs, but launched the App anyway,
+for the MainActivity. 
+7. For the MainActivity, I had to change the MainActivity to MainMapActivity -- since there was somewhere 
+an activity entitled 'MainActivity.'
+8. Note that you cannot choose both IsLibr and add the same libr - that would be circular! So, for google-
+play-svcs, click the IsLibr, and for the other two (MainActivit and MapTest), do not click, but add the
+library.
+9. Import the googleplayservices first, and then import other examples. 
+
+
+
+
+--------
+Older comments
+Generate key for this from the Googleplay 
+SHA1: 27:A2:6E:8A:D4:55:D4:50:AA:AF:71:A8:37:18:11:34:77:4E:D9:5E
+Package names: com.example.mapdemo, com.example.mapdemo.view
+Follow the steps here:
+https://developers.google.com/maps/documentation/android/start#installing_the_google_maps_android_v2_api
+-------
+Key for Android apps (with certificates)
+API key: 	
+AIzaSyDU6RwV7OWoetKJLw3XnqT1h4eLkYK7PWU
+Android apps: 	
+27:A2:6E:8A:D4:55:D4:50:AA:AF:71:A8:37:18:11:34:77:4E:D9:5E;com.example.mapdemo
+Activated on: 	Oct 13, 2013 7:35 PM
+Activated by: 	shankar.fau@gmail.com – you 
+------
+Key for Android apps (with certificates)
+API key: 	
+AIzaSyAtxhLGTeesk-cWTiGxGXbLtcjjO08imjg
+Android apps: 	
+27:A2:6E:8A:D4:55:D4:50:AA:AF:71:A8:37:18:11:34:77:4E:D9:5E;com.example.mapdemo.view
+Activated on: 	Oct 13, 2013 7:37 PM
+Activated by: 	shankar.fau@gmail.com – you 
+-----------
+
+manifest file now has two items added at the end: with this pattern:
+<meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="API_KEY"/>
+----
+10/19/13: Added Google Play services: http://developer.android.com/google/play-services/setup.html and 
+Support v4 - because of Fragment activity: http://developer.android.com/tools/support-library/setup.html#download
